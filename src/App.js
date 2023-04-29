@@ -56,11 +56,88 @@ function App() {
         <li><Link to="/manageusers">Gerenciar Usuários</Link></li>
         <li><Link to="/registerusers">Registrar Usuários</Link></li>
         <li><Link to="/editusers">Editar Usuários</Link></li>
+        <li><Link to="/managecourses">Gerenciar Cursos</Link></li>
+        <li><Link to="/registercourse">Registrar Curso</Link></li>
+        <li><Link to="/viewcourse">Visualizar Curso</Link></li>
+        <li><Link to="/editcourse">Editar Curso</Link></li>
+        <li><Link to="/registercontents">Registrar Conteúdos</Link></li>
+        <li><Link to="/registervideo">Registrar Vídeo</Link></li>
+        <li><Link to="/editvideo">Editar Vídeo</Link></li>
+        <li><Link to="/registertext">Registrar Texto</Link></li>
+        <li><Link to="/edittext">Editar Texto</Link></li>
+        <li><Link to="/registerarchive">Registrar Arquivo</Link></li>
+        <li><Link to="/editarchive">Editar Arquivo</Link></li>
+        <li><Link to="/registerlink">Registrar Link</Link></li>
+        <li><Link to="/editlink">Editar Link</Link></li>
+        <li><Link to="/registerevaluation">Registrar Avaliação</Link></li>
+        <li><Link to="/registerexercise">Registrar Exercício</Link></li>
+        <li><Link to="/editexercise">Editar Exercício</Link></li>
+        <li><Link to="/registertest">Registrar Prova</Link></li>
+        <li><Link to="/edittest">Editar Prova</Link></li>
+        <li><Link to="/managecategories">Gerenciar Categorias</Link></li>
+        <li><Link to="/registercategory">Registrar Categoria</Link></li>
+        <li><Link to="/editcategory">Editar Categoria</Link></li>
+        <li><Link to="/managereports">Gerenciar Relatórios</Link></li>
+        <li><Link to="/viewcoursesreport">Visualizar Relatórios de Cursos</Link></li>
+        <li><Link to="/viewcoursereport">Visualizar Relatório de Curso</Link></li>
+        <li><Link to="/assignedcourses">Todos Meus Cursos</Link></li>
+        <li><Link to="/mycourses">Meus Cursos</Link></li>
+        <li><Link to="/othercourses">Outros Cursos</Link></li>
+        <li><Link to="/recentcourses">Cursos Recentes</Link></li>
+        <li><Link to="/courseoverview">Visão Geral do Curso</Link></li>
+        <li><Link to="/coursedashboard">Visualizar Progresso do Curso</Link></li>
+        <li><Link to="/videoviewer">Visualizar Vídeo</Link></li>
+        <li><Link to="/textviewer">Visualizar Texto</Link></li>
+        <li><Link to="/exerciseviewer">Visualizar Exercício</Link></li>
+        <li><Link to="/testviewer">Visualizar Prova</Link></li>
+        <li><Link to="/exerciseresultsviewer">Visualizar Resultado do Exercício</Link></li>
+        <li><Link to="/testresultsviewer">Visualizar Resultado da Prova</Link></li>
       </ul>
       <Container customClass='minHeight'>
         <Routes>
           <Route exact path='/' element={<Login/>}/>
           <Route path='/forgetpassword' element={<ForgetPassword/>}/>
+          <Route path='/dashboard' element={<Dashboard/>}/>
+          <Route path='/profile' element={<Profile/>}/>
+          <Route path='/manageusers' element={<ManageUsers/>}/>
+          <Route path='/registerusers' element={<RegisterUsers/>}/>
+          <Route path='/editusers' element={<EditUsers/>}/>
+          <Route path='/managecourses' element={<ManageCourses/>}/>
+          <Route path='/registercourse' element={<RegisterCourse/>}/>
+          <Route path='/viewcourse' element={<ViewCourse/>}/>
+          <Route path='/editcourse' element={<EditCourse/>}/>
+          <Route path='/registercontents' element={<RegisterContents/>}/>
+          <Route path='/registervideo' element={<RegisterVideo/>}/>
+          <Route path='/editvideo' element={<EditVideo/>}/>
+          <Route path='/registertext' element={<RegisterText/>}/>
+          <Route path='/edittext' element={<EditText/>}/>
+          <Route path='/registerarchive' element={<RegisterArchive/>}/>
+          <Route path='/editarchive' element={<EditArchive/>}/>
+          <Route path='/registerlink' element={<RegisterLink/>}/>
+          <Route path='/editlink' element={<EditLink/>}/>
+          <Route path='/registerevaluation' element={<RegisterEvaluation/>}/>
+          <Route path='/registerexercise' element={<RegisterExercise/>}/>
+          <Route path='/editexercise' element={<EditExercise/>}/>
+          <Route path='/registertest' element={<RegisterTest/>}/>
+          <Route path='/edittest' element={<EditTest/>}/>
+          <Route path='/managecategories' element={<ManageCategories/>}/>
+          <Route path='/registercategory' element={<RegisterCategory/>}/>
+          <Route path='/editcategory' element={<EditCategory/>}/>
+          <Route path='/managereports' element={<ManageReports/>}/>
+          <Route path='/viewcoursesreport' element={<ViewCoursesReport/>}/>
+          <Route path='/viewcoursereport' element={<ViewCourseReport/>}/>
+          <Route path='/assignedcourses' element={<AssignedCourses/>}/>
+          <Route path='/mycourses' element={<MyCourses/>}/>
+          <Route path='/othercourses' element={<OtherCourses/>}/>
+          <Route path='/recentcourses' element={<RecentCourses/>}/>
+          <Route path='/courseoverview' element={<CourseOverview/>}/>
+          <Route path='/coursedashboard' element={<CourseDashboard/>}/>
+          <Route path='/videoviewer' element={<VideoViewer/>}/>
+          <Route path='/textviewer' element={<TextViewer/>}/>
+          <Route path='/exerciseviewer' element={<ExerciseViewer/>}/>
+          <Route path='/testviewer' element={<TestViewer/>}/>
+          <Route path='/exerciseresultsviewer' element={<ExerciseResultsViewer/>}/>
+          <Route path='/testresultsviewer' element={<TestResultsViewer/>}/>
         </Routes>
       </Container>
     </Router>
