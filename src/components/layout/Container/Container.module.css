@@ -1,20 +1,38 @@
-.container {
-    width: 1200px;
+.dashboardScreen {
     display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    flex-wrap: wrap;
-}
-
-minHeight {
-    min-height: 75%;
-}
-
-.start {
-    justify-content: flex-start;
-}
-
-.column {
     flex-direction: column;
-    justify-content: flex-start;
+    background-color: #f6f7fb;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navbarContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+}
+
+.sideBar {
+    top: 0;
+    left: 0;
+    width: 280px;
+    background-color: #172957;
+    overflow-y: hidden;
+    border-right: 1px solid #50caee;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+.mainCanvas {
+    padding: 30px;
 }

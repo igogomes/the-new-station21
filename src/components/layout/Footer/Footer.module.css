@@ -1,0 +1,35 @@
+.footer {
+    background-color: #ede6d6;
+    box-shadow: 2px 2px 5px #bebebe, -2px -2px 5px #ffffff;
+    box-shadow:  2px -2px 5px #bebebe, -2px 2px 5px #ffffff;
+    padding: 1rem;
+}
+
+.socialList {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.socialList li {
+    margin-right: 2rem;
+}
+
+.socialList li:last-child {
+    margin-right: 0;
+}
+
+.socialList li svg {
+    height: 24px;
+    width: 24px;
+}
+
+.socialList li:hover svg {
+    color: #50caee;
+    cursor: pointer;
+}
+
+.copyright {
+    margin-top: 1rem;
+    text-align: center;
+}

@@ -1,0 +1,22 @@
+.icon svg {
+    color: #fff;
+}
+
+.list li {
+    list-style: none;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.list li span a {
+    color: #fff;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.list li:hover span a,
+.list li:hover svg {
+    color: #50caee;
+}
