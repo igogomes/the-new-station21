@@ -7,10 +7,10 @@ function Sidebar() {
   return (
     <div>
       <ul className={styles.list}>
-        <li className={styles.icon}><FaThLarge/><span><Link to="/dashboard">Dashboard</Link></span></li>
-        <li className={styles.icon}><FaUserFriends/><span><Link to="/manageusers">Usuários</Link></span></li>
-        <li className={styles.icon}><FaPlay/><span><Link to="/managecourses">Cursos</Link></span></li>
-        <li className={styles.icon}><FaChartPie/><span><Link to="/managereports">Relatórios</Link></span></li>
+        <li className={styles.icon}><Link to="/dashboard"><FaThLarge/><span>Dashboard</span></Link></li>
+        <li className={styles.icon}><Link to="/manageusers"><FaUserFriends/><span>Usuários</span></Link></li>
+        <li className={styles.icon}><Link to="/managecourses"><FaPlay/><span>Cursos</span></Link></li>
+        <li className={styles.icon}><Link to="/managereports"><FaChartPie/><span>Relatórios</span></Link></li>
       </ul>
     </div>
   );

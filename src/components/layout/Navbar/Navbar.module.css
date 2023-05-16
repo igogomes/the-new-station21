@@ -1,7 +1,12 @@
 .navbar {
-    background-color: #ede6d6;
+    background-color: #fff;
     box-shadow: 2px 2px 5px #bebebe, -2px -2px 5px #ffffff;
-    padding: 1rem;
+    padding: 0.5rem;
+}
+
+.logo {
+    margin-left: 1rem;
+    margin-top: 0.3rem;
 }
 
 .list {
@@ -11,14 +16,15 @@
 }
 
 .item {
-    margin-right: 1em;
+    margin-right: 1rem;
 }
 
 .item a {
-    color: #1c1c1c;
+    color: #6c757d;
     text-decoration: none;
+    font-size: 1rem;
 }
 
 .item a:hover {
-    color: #50caee;
+    color: #1f2d3d;
 }

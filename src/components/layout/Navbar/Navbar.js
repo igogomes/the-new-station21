@@ -10,7 +10,7 @@ function Navbar() {
         <nav className={styles.navbar}>
             <Container customClass='navbarContent'>
                 <Link to="/">
-                    <img src={logo} alt="Station21"/>
+                    <img className={styles.logo} src={logo} alt="Station21"/>
                 </Link>
                 <ul className={styles.list}>
                     <li className={styles.item}><Link to="/">Login</Link></li>

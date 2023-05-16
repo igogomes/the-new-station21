@@ -4,19 +4,22 @@
 
 .list li {
     list-style: none;
-    vertical-align: middle;
-    display: flex;
-    align-items: center;
     margin-bottom: 1rem;
 }
 
-.list li span a {
-    color: #fff;
-    padding-left: 10px;
+.list li a {
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
     text-decoration: none;
 }
 
-.list li:hover span a,
+.list li a span {
+    color: #fff;
+    padding-left: 10px;
+}
+
+.list li:hover a span,
 .list li:hover svg {
     color: #50caee;
 }
